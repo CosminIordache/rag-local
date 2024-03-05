@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  db:
+    image: ghcr.io/chroma-core/chroma:latest
+    container_name: chroma-db
+    volumes:
+      - data:/chroma/.chroma/index
+    ports:
+      - 8000:8000
+
+volumes:
+  data:
