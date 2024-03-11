@@ -1,0 +1,5 @@
+langchain
+unstructured[md]
+chromadb
+pyaudio
+vosk

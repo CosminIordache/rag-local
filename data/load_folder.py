@@ -10,7 +10,7 @@ def load_folder(folder):
     # i = index of the current element in the list & p = value of the current element in the list
     for i, p in enumerate(folder):
         # Check if the current file path ends with any of the specified file extensions.
-        if p.endswith(('.pyc')):
+        if p.endswith(('.pyc','.json')):
             continue
 
         # print('Current file path:', p)
